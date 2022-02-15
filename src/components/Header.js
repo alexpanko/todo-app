@@ -9,7 +9,7 @@ const Header = ({ onAdd, showAdd, user }) => {
     <Navbar bg="light" expand="lg" className="my-2">
       <Container>
         <Navbar.Brand expand="sm" href="#home">
-          To-do list for a great day
+          My To-Do
         </Navbar.Brand>
         <Nav className="justify-content-end">
           {user ? (
